@@ -48,9 +48,9 @@ describe('Grow.js', () => {
   });
 
   describe('State', () => {
-    it('should write state to file', () => {
+    it('should store all events to file', () => {
       let statefulThing = new Grow(thing, 'state.json')
-      // TODO: it should do so with options such as a different VREF
+      console.log(statefulThing.db);
     });
   });
 
